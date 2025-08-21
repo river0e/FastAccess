@@ -1,0 +1,7 @@
+PyQt6
+PyQt6-Qt6
+PyQt6-sip
+qtawesome
+speechrecognition
+pyttsx3
+pyaudio

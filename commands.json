@@ -1,0 +1,101 @@
+{
+    "apps": [
+        {
+            "name": "VSCode",
+            "action": "C:/Users/Kent/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+            "type": "app",
+            "icon": "fa5s.code"
+        },
+        {
+            "name": "LinkedIn",
+            "action": "https://www.linkedin.com/jobs/",
+            "type": "web",
+            "icon": "fa5b.linkedin"
+        },
+        {
+            "name": "Gmail",
+            "action": "https://mail.google.com",
+            "type": "web",
+            "icon": "fa5s.envelope"
+        },
+        {
+            "name": "YouTube",
+            "action": "https://www.youtube.com",
+            "type": "web",
+            "icon": "fa5b.youtube"
+        },
+        {
+            "name": "Whatsapp",
+            "action": "https://web.whatsapp.com/",
+            "type": "web",
+            "icon": "fa5b.whatsapp"
+        },
+        {
+            "name": "Instagram",
+            "action": "https://www.instagram.com/",
+            "type": "web",
+            "icon": "fa5b.instagram"
+        },
+        {
+            "name": "GitHub",
+            "action": "https://github.com/river0e",
+            "type": "web",
+            "icon": "fa5b.github"
+        },
+        {
+            "name": "ChatGpt",
+            "action": "https://chatgpt.com/",
+            "type": "web",
+            "icon": "fa5s.brain"
+        },
+        {
+            "name": "InfoJobs",
+            "action": "https://www.infojobs.net",
+            "type": "web",
+            "icon": "fa5s.briefcase"
+        },
+        {
+            "name": "Desarrollo",
+            "type": "app",
+            "action": "C:\\Users\\Kent\\Desktop\\DAMMari"
+        }
+    ],
+    "groups": [
+        {
+            "name": "Empleo",
+            "items": [
+                "LinkedIn",
+                "Gmail",
+                "InfoJobs"
+            ],
+            "icon": "fa5s.briefcase"
+        },
+        {
+            "name": "Programar",
+            "items": [
+                "VSCode",
+                "GitHub",
+                "YouTube",
+                "ChatGpt"
+            ],
+            "icon": "fa5s.code"
+        },
+        {
+            "name": "Redes",
+            "items": [
+                "Instagram",
+                "Whatsapp",
+                "YouTube"
+            ],
+            "icon": "fa5s.users"
+        },
+        {
+            "name": "Estudio",
+            "items": [
+                "VSCode",
+                "https://avanza.educarex.es/",
+                "C:\\Users\\Kent\\Desktop\\DAMMari\\2º CURSO"
+            ]
+        }
+    ]
+}

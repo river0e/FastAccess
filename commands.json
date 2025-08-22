@@ -1,14 +1,8 @@
 {
     "apps": [
         {
-            "name": "VSCode",
-            "action": "C:/Users/Kent/AppData/Local/Programs/Microsoft VS Code/Code.exe",
-            "type": "app",
-            "icon": "fa5s.code"
-        },
-        {
             "name": "LinkedIn",
-            "action": "https://www.linkedin.com/jobs/",
+            "action": "https://www.linkedin.com",
             "type": "web",
             "icon": "fa5b.linkedin"
         },
@@ -43,21 +37,35 @@
             "icon": "fa5b.github"
         },
         {
-            "name": "ChatGpt",
-            "action": "https://chatgpt.com/",
-            "type": "web",
-            "icon": "fa5s.brain"
-        },
-        {
             "name": "InfoJobs",
             "action": "https://www.infojobs.net",
             "type": "web",
             "icon": "fa5s.briefcase"
         },
         {
-            "name": "Desarrollo",
+            "name": "Notepad",
             "type": "app",
-            "action": "C:\\Users\\Kent\\Desktop\\DAMMari"
+            "action": "C:\\\\Windows\\\\System32\\\\notepad.exe"
+        },
+        {
+            "name": "Carpeta System32",
+            "type": "app",
+            "action": "C:\\Windows\\System32"
+        },
+        {
+            "name": "Google",
+            "type": "web",
+            "action": "https://www.google.com/"
+        },
+        {
+            "name": "Spotify",
+            "type": "web",
+            "action": "https://open.spotify.com/intl-es"
+        },
+        {
+            "name": "ChatGPT",
+            "type": "web",
+            "action": "https://chatgpt.com/"
         }
     ],
     "groups": [
@@ -66,36 +74,30 @@
             "items": [
                 "LinkedIn",
                 "Gmail",
-                "InfoJobs"
+                "InfoJobs",
+                "Carpeta System32"
             ],
             "icon": "fa5s.briefcase"
         },
         {
             "name": "Programar",
             "items": [
-                "VSCode",
                 "GitHub",
                 "YouTube",
-                "ChatGpt"
+                "Google",
+                "Notepad"
             ],
             "icon": "fa5s.code"
         },
         {
-            "name": "Redes",
+            "name": "Entretenimiento",
             "items": [
                 "Instagram",
                 "Whatsapp",
-                "YouTube"
+                "YouTube",
+                "Spotify"
             ],
             "icon": "fa5s.users"
-        },
-        {
-            "name": "Estudio",
-            "items": [
-                "VSCode",
-                "https://avanza.educarex.es/",
-                "C:\\Users\\Kent\\Desktop\\DAMMari\\2º CURSO"
-            ]
         }
     ]
 }

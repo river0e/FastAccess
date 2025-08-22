@@ -1,4 +1,4 @@
-import sys
+import sys 
 from PyQt6.QtWidgets import QApplication
 from gui import FastAccessGUI
 from voice import voice_listener
@@ -9,9 +9,8 @@ if __name__ == "__main__":
     gui = FastAccessGUI()
     gui.show()
 
-    # Iniciar escucha de voz en hilo separado
-    import commands
-    t = threading.Thread(target=voice_listener, args=(gui.apps, gui.groups, gui.run_action, gui.run_group), daemon=True)
+    # Iniciar escucha de voz en hilo separado (pasamos gui entero)
+    t = threading.Thread(target=voice_listener, args=(gui,), daemon=True)
     t.start()
 
     sys.exit(app.exec())
